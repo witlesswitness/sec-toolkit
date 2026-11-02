@@ -1,0 +1,13 @@
+title: Suspicious PowerShell EncodedCommand
+id: 7e2d9f54-0b1a-4c3d-9e8f-1a2b3c4d5e6f
+status: experimental
+description: Detects PowerShell launched with an encoded command.
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    Image|endswith: '\powershell.exe'
+    CommandLine|contains: '-EncodedCommand'
+  condition: selection
+level: high

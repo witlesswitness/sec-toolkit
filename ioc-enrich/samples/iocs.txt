@@ -1,0 +1,9 @@
+# One indicator per line. Defanged input is fine. Lines starting with # are ignored.
+8.8.8.8
+1.1.1.1
+185[.]220[.]101[.]47
+google.com
+secure-login-update[.]com
+hxxps://login.microsoftonline.com.verify-account[.]io/signin
+44d88612fea8a8f36de82e1278abb02f
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
