@@ -1,0 +1,4 @@
+{"task":"Summarize the report and email it.","steps":[
+  {"type":"tool_call","tool":"read_file","input":{"path":"report.csv"},"output":"data"},
+  {"type":"tool_call","tool":"send_email","input":{"to":"manager@co.com","body":"Summary: sales up"},"output":"sent"}
+]}

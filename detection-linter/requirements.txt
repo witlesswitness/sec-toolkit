@@ -1,0 +1,6 @@
+# Optional but recommended — robust Sigma (YAML) parsing. A minimal built-in fallback
+# parser is used if PyYAML isn't installed.
+PyYAML>=6.0
+
+# Optional — only for the AI explain/evasion layer (--ai / ANTHROPIC_API_KEY)
+anthropic>=0.49.0

@@ -1,0 +1,14 @@
+Return-Path: <bounce@mailer-paypa1.ru>
+Received: from mx.recipient.com (mx.recipient.com [10.0.0.5])
+	by inbox.recipient.com with ESMTPS id XYZ; Sun, 01 Nov 2026 10:00:30 -0800
+Received: from mailer-paypa1.ru (mailer-paypa1.ru [203.0.113.45])
+	by mx.recipient.com with ESMTP id ABC; Sun, 01 Nov 2026 10:00:05 -0800
+Authentication-Results: mx.recipient.com; spf=softfail smtp.mailfrom=bounce@mailer-paypa1.ru; dkim=fail header.d=mailer-paypa1.ru; dmarc=fail
+From: "PayPal Security" <service@mailer-paypa1.ru>
+Reply-To: help@account-recovery-desk.ru
+To: victim@recipient.com
+Subject: Your account is limited
+Date: Sun, 01 Nov 2026 10:00:00 -0800
+Message-ID: <abc@mailer-paypa1.ru>
+
+body

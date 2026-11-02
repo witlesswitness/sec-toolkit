@@ -1,0 +1,4 @@
+# Core: none — standard library only.
+
+# Optional — only for the LLM monitor (--llm / ANTHROPIC_API_KEY)
+anthropic>=0.49.0
