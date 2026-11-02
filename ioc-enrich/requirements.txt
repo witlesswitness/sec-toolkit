@@ -1,0 +1,5 @@
+# Core — intentionally light.
+requests>=2.32.0        # all HTTP lookups
+dnspython>=2.6.0        # A/AAAA/MX/NS/TXT + reverse DNS
+tldextract>=5.1.0       # registrable-domain extraction from URLs
+python-dotenv>=1.0.0    # load optional API keys from .env (optional)
